@@ -1,0 +1,47 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx} 
+\usepackage{caption}
+\usepackage{float}
+\usepackage{url}
+\author{Klara Muzalewska}
+
+\title{Text prezentcji na sempowisko 2017 rok}
+
+
+\begin{document}
+\paragraph{}
+Nazywam się Klara Muzalewska. Temat mojej prezentacji to:"Modelowanie budynku - chodź, pomóż mi AI"
+\paragraph{}
+Najpierw, powiem wam kilka zdań wprowadzających na temat modelowaniu budynku, następnie postaram się przedstawić jak można do tego procesu użyć sztucznej inteligencji na koniec przedstawie efekty uzyskane  tej pracy.
+\paragraph{Modelowanie budynku}
+Obecnie projektowanie budynków odbywa się cyfrowo- technologia cyfrowego modelowania budynków - BIM-  przez odpowiednie programy. Lecz wciąż jest to bardzo długi, iteracyjny proces wymagający dużej wiedzy inżynierow. Zależy ona również od wielu czynników zewnętrznych jak lokalizacjia jak i tego jaka ma być funkcja danej modelowanej struktury.\\
+W trakcie modelowania opieramy się na danych wcześniej modelowanych struktur. Jednym z źródeł takich danych jest Bridge Management Systems (BMS). Pytanie czy dzięki tak zebranym danym da się nabyć jakąś wiedze i czy może sie ona przydać do projektowania.
+
+\paragraph{Bayesian network}
+Jest wiele metod do reprezentowania wiedzy w sieciach. Jedną z nich jest sieć Bayesian. Jest ona oparta na teorii Byes'a, która przedstawia warunkowe prawdopodobieństwo P(A|B) wystąpienia zdarzenia A jeśli zdarzenie B.\\
+\begin{center}
+$P(A|B)=\frac{P(B|A)P(A)}{P(B)}$
+\end{center}
+Bayesowska sieć jest definiowana przez skierowany, acykliczny graf (DAG), gdzie każdy węzeł reprezentuje dyskretną lub ciągłą 
+losową wartość \\
+X=$\lbrace{X}_{1}, \ldots, {X}_{n}\rbrace$, a wierzchołki E reprezentują warunkową zależność pomiędzy wartościami.\\
+Bezpośredni link z węzła X do Y mówi że X jest rodzicem Y. Strzałka pomiędzy dwoma wartościami jest zwykle interpretowana jako bezpośredni wpływ X na Y. Jeśli brak węzła, nie ma zależności. \\
+Gdy mamy zdefiniowaną topologie graf, każdy węzeł grafu jest powiązany z warunkowym prawdopodobieństwiem: $P = ({X}_{i}|parents({X}_{i}))$, który deterinuje wpływ rodzica węzła. Prawdopodobieństwa są oznaczone w tablicy prawdopodobieńst warunkowych (CPT). Sume prawdopodobieństw dla zbioru zmiennych x=$\lbrace{x}_{1}, \ldots, {x}_{n}\rbrace$ można obliczyć przez pomnożenie każdego rozkładu prawdopodobieństwa.\\
+Aby stworzyć sieć Bayesowską trzeba zrobić dwie rzeczt. Najpierw msimy nauczyć sieć struktury a następnie obliczyć A-priori warunkowe rozkłady prawdopodobieństwa dla każdego węzła.\\
+Po stworzeniu może możliwe jest wnioskowanie probalistyczne.\\
+W naszym przypadku oznacza to że pobieramy istniejące zestawy danych z BMS, aby poznać strukturę sieci i obliczyć
+tabele rozkładu prawdopodobieństwa, a następnie wykonujemy wnioskowani probabilistyczne dla nowego projektu mostu.
+
+Możliwe zdefiniowanie struktury grafów sieci bayesowskie poprzez uczenie się z zestawów treningowych w automatyczny sposób. Dlatego algorytmy takie jak algorytm wyszukiwania oparty na CI lub istnieje algorytm K2 (Cooper i wsp. 1992). The Tree Augmented Naive Bayes (TAN) metoda została wprowadzona przez (Friedman i wsp. 1997). Ten algorytm tworzy sieć bayesowską
+na podstawie pewnego algorytmu.\\
+Po stwrzeniu sieci Bayesowskiej, chcielibyśmy 
+
+\paragraph{Bibliografia}
+Aby przygotować prezentacje, korzystałam z artykułu: "Knowledge based Bridge Engineering - Artificial Intelligence meets Building Information Modeling" Dominic Singer, Maximilian Bügler, André Borrmann. 
+
+\end{document}
