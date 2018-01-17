@@ -1,0 +1,6 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {polish}
+\beamer@sectionintoc {1}{Modelowanie budynku}{3}{0}{1}
+\beamer@sectionintoc {2}{Sztuczna inteligencja w modelowaniu}{4}{0}{2}
+\beamer@sectionintoc {3}{Efekty}{9}{0}{3}
+\beamer@sectionintoc {4}{Bibliografia}{10}{0}{4}

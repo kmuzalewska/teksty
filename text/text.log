@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.21)  16 JAN 2018 00:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.21)  17 JAN 2018 00:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -554,66 +554,73 @@ Overfull \hbox (3.2559pt too wide) in paragraph at lines 18--19
  []
 
 
-Overfull \hbox (11.56256pt too wide) in paragraph at lines 22--24
-\T1/cmr/m/n/10.95 cyfrowo- tech-nolo-gia cyfrowego mod-e-lowa-nia bu-dynków - B
-IM- przez odpowied-
+Overfull \hbox (23.38399pt too wide) in paragraph at lines 27--28
+\T1/cmr/m/n/10.95 która przed-stawia warunk-owe praw-dopodobie«stwo P(A|B) wys-
+t¡pi-enia zdarzenia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 28.
+LaTeX Font Info:    Try loading font information for U+msa on input line 29.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 28.
+LaTeX Font Info:    Try loading font information for U+msb on input line 29.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (7.37791pt too wide) in paragraph at lines 30--39
+Overfull \hbox (7.37791pt too wide) in paragraph at lines 31--40
 \T1/cmr/m/n/10.95 X=$\OMS/cmsy/m/n/10.95 f\OML/cmm/m/it/10.95 X[]; [] ; X[]\OMS
 /cmsy/m/n/10.95 g$\T1/cmr/m/n/10.95 , a wierz-choªki E reprezen-tuj¡ warunk-ow¡
  za-le»no±¢ pomi¦dzy
  []
 
-
-Overfull \hbox (16.02351pt too wide) in paragraph at lines 30--39
-\T1/cmr/m/n/10.95 BMS, aby poz-na¢ struk-tur¦ sieci i obliczy¢ tabele rozkªadu 
-praw-dopodobie«stwa,
- []
-
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (11.57852pt too wide) in paragraph at lines 45--46
+<TAN.png, id=14, 634.37pt x 251.94125pt>
+File: TAN.png Graphic file (type png)
+ <use TAN.png>
+Package pdftex.def Info: TAN.png used on input line 42.
+(pdftex.def)             Requested size: 317.18422pt x 125.9703pt.
+
+<Gibs.png, id=15, 577.15625pt x 220.825pt>
+File: Gibs.png Graphic file (type png)
+ <use Gibs.png>
+Package pdftex.def Info: Gibs.png used on input line 45.
+(pdftex.def)             Requested size: 288.57741pt x 110.41222pt.
+
+Overfull \hbox (11.57852pt too wide) in paragraph at lines 52--53
  \T1/cmr/bx/n/10.95 Bib-li-ografia[] \T1/cmr/m/n/10.95 Aby przy-go-towa¢ prezen
 -tacje, ko-rzys-taªam z artykuªu: "Knowl-
  []
 
-[2] (./text.aux) ) 
+[2 <./TAN.png> <./Gibs.png>] (./text.aux) ) 
 Here is how much of TeX's memory you used:
- 4050 strings out of 493029
- 55711 string characters out of 6136233
- 119533 words of memory out of 5000000
- 7531 multiletter control sequences out of 15000+600000
+ 4061 strings out of 493029
+ 55828 string characters out of 6136233
+ 118533 words of memory out of 5000000
+ 7539 multiletter control sequences out of 15000+600000
  9840 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,4n,38p,452b,133s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-sup
-er/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on text.pdf (2 pages, 102462 bytes).
+ 38i,5n,38p,449b,133s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm
+-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/
+fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfrm1095.pfb>
+Output written on text.pdf (2 pages, 151706 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
+ 46 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
